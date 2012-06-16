@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FF53DE7158D541300694F9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF53DE6158D541300694F9A /* main.cpp */; };
+		6FF53DE9158D541300694F9A /* Cansat_2013_function_set.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FF53DE0158D541300694F9A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6FF53DE9158D541300694F9A /* Cansat_2013_function_set.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6FF53DE2158D541300694F9A /* Cansat 2013 function set */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cansat 2013 function set"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF53DE6158D541300694F9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Cansat_2013_function_set.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF53DDF158D541300694F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FF53DD7158D541300694F9A = {
+			isa = PBXGroup;
+			children = (
+				6FF53DE5158D541300694F9A /* Cansat 2013 function set */,
+				6FF53DE3158D541300694F9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF53DE3158D541300694F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF53DE2158D541300694F9A /* Cansat 2013 function set */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF53DE5158D541300694F9A /* Cansat 2013 function set */ = {
+			isa = PBXGroup;
+			children = (
+				6FF53DE6158D541300694F9A /* main.cpp */,
+				6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */,
+			);
+			path = "Cansat 2013 function set";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF53DE1158D541300694F9A /* Cansat 2013 function set */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF53DEC158D541300694F9A /* Build configuration list for PBXNativeTarget "Cansat 2013 function set" */;
+			buildPhases = (
+				6FF53DDE158D541300694F9A /* Sources */,
+				6FF53DDF158D541300694F9A /* Frameworks */,
+				6FF53DE0158D541300694F9A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cansat 2013 function set";
+			productName = "Cansat 2013 function set";
+			productReference = 6FF53DE2158D541300694F9A /* Cansat 2013 function set */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF53DD9158D541300694F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "carleton university";
+			};
+			buildConfigurationList = 6FF53DDC158D541300694F9A /* Build configuration list for PBXProject "Cansat 2013 function set" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6FF53DD7158D541300694F9A;
+			productRefGroup = 6FF53DE3158D541300694F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF53DE1158D541300694F9A /* Cansat 2013 function set */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF53DDE158D541300694F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF53DE7158D541300694F9A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FF53DEA158D541300694F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6FF53DEB158D541300694F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6FF53DED158D541300694F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FF53DEE158D541300694F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF53DDC158D541300694F9A /* Build configuration list for PBXProject "Cansat 2013 function set" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF53DEA158D541300694F9A /* Debug */,
+				6FF53DEB158D541300694F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF53DEC158D541300694F9A /* Build configuration list for PBXNativeTarget "Cansat 2013 function set" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF53DED158D541300694F9A /* Debug */,
+				6FF53DEE158D541300694F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF53DD9158D541300694F9A /* Project object */;
+}
