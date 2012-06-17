@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[])
 {
-
+    std::cout << "HELLO WORLD" << endl;
     return 0;
 }
 
