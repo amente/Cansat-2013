@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FA4F9FB158D5D1100AE997F /* I2C Generic Access Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4F9FA158D5D1100AE997F /* I2C Generic Access Functions.cpp */; };
 		6FF53DE7158D541300694F9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF53DE6158D541300694F9A /* main.cpp */; };
 		6FF53DE9158D541300694F9A /* Cansat_2013_function_set.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6FA4F9FA158D5D1100AE997F /* I2C Generic Access Functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "I2C Generic Access Functions.cpp"; sourceTree = "<group>"; };
 		6FF53DE2158D541300694F9A /* Cansat 2013 function set */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cansat 2013 function set"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF53DE6158D541300694F9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Cansat_2013_function_set.1; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		6FA4F9F2158D57AF00AE997F /* I2C Access */ = {
 			isa = PBXGroup;
 			children = (
+				6FA4F9FA158D5D1100AE997F /* I2C Generic Access Functions.cpp */,
 			);
 			name = "I2C Access";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FF53DE7158D541300694F9A /* main.cpp in Sources */,
+				6FA4F9FB158D5D1100AE997F /* I2C Generic Access Functions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
