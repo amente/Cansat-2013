@@ -10,24 +10,24 @@
 		6F13E48F158E634100FD7DC9 /* Kernel_Errors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E48E158E634100FD7DC9 /* Kernel_Errors.cpp */; };
 		6F13E493158E653F00FD7DC9 /* main_xbee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E492158E653F00FD7DC9 /* main_xbee.cpp */; };
 		6F13E495158E655400FD7DC9 /* main_sd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E494158E655400FD7DC9 /* main_sd.cpp */; };
-		6F13E4BD158E6CA200FD7DC9 /* dec_bayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E49E158E6CA200FD7DC9 /* dec_bayer.c */; };
-		6F13E4BE158E6CA200FD7DC9 /* dec_grey.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E49F158E6CA200FD7DC9 /* dec_grey.c */; };
-		6F13E4BF158E6CA200FD7DC9 /* dec_jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A0158E6CA200FD7DC9 /* dec_jpeg.c */; };
-		6F13E4C0158E6CA200FD7DC9 /* dec_png.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A1158E6CA200FD7DC9 /* dec_png.c */; };
-		6F13E4C1158E6CA200FD7DC9 /* dec_rgb.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A2158E6CA200FD7DC9 /* dec_rgb.c */; };
-		6F13E4C2158E6CA200FD7DC9 /* dec_s561.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A3158E6CA200FD7DC9 /* dec_s561.c */; };
-		6F13E4C3158E6CA200FD7DC9 /* dec_yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A4158E6CA200FD7DC9 /* dec_yuv.c */; };
-		6F13E4C4158E6CA200FD7DC9 /* effects.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A6158E6CA200FD7DC9 /* effects.c */; };
-		6F13E4C5158E6CA200FD7DC9 /* fswebcam.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4AA158E6CA200FD7DC9 /* fswebcam.c */; };
-		6F13E4C6158E6CA200FD7DC9 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4AD158E6CA200FD7DC9 /* log.c */; };
-		6F13E4C7158E6CA200FD7DC9 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B0158E6CA200FD7DC9 /* parse.c */; };
-		6F13E4C8158E6CA200FD7DC9 /* src_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B3158E6CA200FD7DC9 /* src_file.c */; };
-		6F13E4C9158E6CA200FD7DC9 /* src_raw.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B4158E6CA200FD7DC9 /* src_raw.c */; };
-		6F13E4CA158E6CA200FD7DC9 /* src_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B5158E6CA200FD7DC9 /* src_test.c */; };
-		6F13E4CB158E6CA200FD7DC9 /* src_v4l1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B6158E6CA200FD7DC9 /* src_v4l1.c */; };
-		6F13E4CC158E6CA200FD7DC9 /* src_v4l2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B7158E6CA200FD7DC9 /* src_v4l2.c */; };
-		6F13E4CD158E6CA200FD7DC9 /* src.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B8158E6CA200FD7DC9 /* src.c */; };
 		6FA4F9FB158D5D1100AE997F /* I2C Generic Access Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4F9FA158D5D1100AE997F /* I2C Generic Access Functions.cpp */; };
+		6FCA76A0158E708A00BA71FE /* dec_bayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7681158E708A00BA71FE /* dec_bayer.c */; };
+		6FCA76A1158E708A00BA71FE /* dec_grey.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7682158E708A00BA71FE /* dec_grey.c */; };
+		6FCA76A2158E708A00BA71FE /* dec_jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7683158E708A00BA71FE /* dec_jpeg.c */; };
+		6FCA76A3158E708A00BA71FE /* dec_png.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7684158E708A00BA71FE /* dec_png.c */; };
+		6FCA76A4158E708A00BA71FE /* dec_rgb.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7685158E708A00BA71FE /* dec_rgb.c */; };
+		6FCA76A5158E708A00BA71FE /* dec_s561.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7686158E708A00BA71FE /* dec_s561.c */; };
+		6FCA76A6158E708A00BA71FE /* dec_yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7687158E708A00BA71FE /* dec_yuv.c */; };
+		6FCA76A7158E708A00BA71FE /* effects.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7689158E708A00BA71FE /* effects.c */; };
+		6FCA76A8158E708A00BA71FE /* fswebcam.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA768D158E708A00BA71FE /* fswebcam.c */; };
+		6FCA76A9158E708A00BA71FE /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7690158E708A00BA71FE /* log.c */; };
+		6FCA76AA158E708A00BA71FE /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7693158E708A00BA71FE /* parse.c */; };
+		6FCA76AB158E708A00BA71FE /* src_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7696158E708A00BA71FE /* src_file.c */; };
+		6FCA76AC158E708A00BA71FE /* src_raw.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7697158E708A00BA71FE /* src_raw.c */; };
+		6FCA76AD158E708A00BA71FE /* src_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7698158E708A00BA71FE /* src_test.c */; };
+		6FCA76AE158E708A00BA71FE /* src_v4l1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA7699158E708A00BA71FE /* src_v4l1.c */; };
+		6FCA76AF158E708A00BA71FE /* src_v4l2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA769A158E708A00BA71FE /* src_v4l2.c */; };
+		6FCA76B0158E708A00BA71FE /* src.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA769B158E708A00BA71FE /* src.c */; };
 		6FF53DE7158D541300694F9A /* main_i2c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF53DE6158D541300694F9A /* main_i2c.cpp */; };
 		6FF53DE9158D541300694F9A /* Cansat_2013_function_set.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */; };
 /* End PBXBuildFile section */
@@ -50,42 +50,42 @@
 		6F13E491158E635700FD7DC9 /* Kernel_Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kernel_Errors.h; sourceTree = "<group>"; };
 		6F13E492158E653F00FD7DC9 /* main_xbee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_xbee.cpp; sourceTree = "<group>"; };
 		6F13E494158E655400FD7DC9 /* main_sd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_sd.cpp; sourceTree = "<group>"; };
-		6F13E49A158E6CA200FD7DC9 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGELOG; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/CHANGELOG"; sourceTree = "<group>"; };
-		6F13E49B158E6CA200FD7DC9 /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config.h.in; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/config.h.in"; sourceTree = "<group>"; };
-		6F13E49C158E6CA200FD7DC9 /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = configure; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/configure"; sourceTree = "<group>"; };
-		6F13E49D158E6CA200FD7DC9 /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = configure.ac; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/configure.ac"; sourceTree = "<group>"; };
-		6F13E49E158E6CA200FD7DC9 /* dec_bayer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_bayer.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_bayer.c"; sourceTree = "<group>"; };
-		6F13E49F158E6CA200FD7DC9 /* dec_grey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_grey.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_grey.c"; sourceTree = "<group>"; };
-		6F13E4A0158E6CA200FD7DC9 /* dec_jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_jpeg.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_jpeg.c"; sourceTree = "<group>"; };
-		6F13E4A1158E6CA200FD7DC9 /* dec_png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_png.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_png.c"; sourceTree = "<group>"; };
-		6F13E4A2158E6CA200FD7DC9 /* dec_rgb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_rgb.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_rgb.c"; sourceTree = "<group>"; };
-		6F13E4A3158E6CA200FD7DC9 /* dec_s561.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_s561.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_s561.c"; sourceTree = "<group>"; };
-		6F13E4A4158E6CA200FD7DC9 /* dec_yuv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_yuv.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_yuv.c"; sourceTree = "<group>"; };
-		6F13E4A5158E6CA200FD7DC9 /* dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dec.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec.h"; sourceTree = "<group>"; };
-		6F13E4A6158E6CA200FD7DC9 /* effects.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = effects.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/effects.c"; sourceTree = "<group>"; };
-		6F13E4A7158E6CA200FD7DC9 /* effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = effects.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/effects.h"; sourceTree = "<group>"; };
-		6F13E4A8158E6CA200FD7DC9 /* example.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = example.conf; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/example.conf"; sourceTree = "<group>"; };
-		6F13E4A9158E6CA200FD7DC9 /* fswebcam.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = fswebcam.1; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/fswebcam.1"; sourceTree = "<group>"; };
-		6F13E4AA158E6CA200FD7DC9 /* fswebcam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fswebcam.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/fswebcam.c"; sourceTree = "<group>"; };
-		6F13E4AB158E6CA200FD7DC9 /* fswebcam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fswebcam.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/fswebcam.h"; sourceTree = "<group>"; };
-		6F13E4AC158E6CA200FD7DC9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/LICENSE"; sourceTree = "<group>"; };
-		6F13E4AD158E6CA200FD7DC9 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = log.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/log.c"; sourceTree = "<group>"; };
-		6F13E4AE158E6CA200FD7DC9 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = log.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/log.h"; sourceTree = "<group>"; };
-		6F13E4AF158E6CA200FD7DC9 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.in; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/Makefile.in"; sourceTree = "<group>"; };
-		6F13E4B0158E6CA200FD7DC9 /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/parse.c"; sourceTree = "<group>"; };
-		6F13E4B1158E6CA200FD7DC9 /* parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parse.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/parse.h"; sourceTree = "<group>"; };
-		6F13E4B2158E6CA200FD7DC9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/README"; sourceTree = "<group>"; };
-		6F13E4B3158E6CA200FD7DC9 /* src_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_file.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_file.c"; sourceTree = "<group>"; };
-		6F13E4B4158E6CA200FD7DC9 /* src_raw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_raw.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_raw.c"; sourceTree = "<group>"; };
-		6F13E4B5158E6CA200FD7DC9 /* src_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_test.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_test.c"; sourceTree = "<group>"; };
-		6F13E4B6158E6CA200FD7DC9 /* src_v4l1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_v4l1.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_v4l1.c"; sourceTree = "<group>"; };
-		6F13E4B7158E6CA200FD7DC9 /* src_v4l2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_v4l2.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_v4l2.c"; sourceTree = "<group>"; };
-		6F13E4B8158E6CA200FD7DC9 /* src.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src.c"; sourceTree = "<group>"; };
-		6F13E4B9158E6CA200FD7DC9 /* src.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = src.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src.h"; sourceTree = "<group>"; };
-		6F13E4BA158E6CA200FD7DC9 /* videodev_mjpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videodev_mjpeg.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/videodev_mjpeg.h"; sourceTree = "<group>"; };
-		6F13E4BB158E6CA200FD7DC9 /* videodev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videodev.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/videodev.h"; sourceTree = "<group>"; };
-		6F13E4BC158E6CA200FD7DC9 /* videodev2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videodev2.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/videodev2.h"; sourceTree = "<group>"; };
 		6FA4F9FA158D5D1100AE997F /* I2C Generic Access Functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "I2C Generic Access Functions.cpp"; sourceTree = "<group>"; };
+		6FCA767D158E708A00BA71FE /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		6FCA767E158E708A00BA71FE /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		6FCA767F158E708A00BA71FE /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		6FCA7680158E708A00BA71FE /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		6FCA7681158E708A00BA71FE /* dec_bayer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dec_bayer.c; sourceTree = "<group>"; };
+		6FCA7682158E708A00BA71FE /* dec_grey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dec_grey.c; sourceTree = "<group>"; };
+		6FCA7683158E708A00BA71FE /* dec_jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dec_jpeg.c; sourceTree = "<group>"; };
+		6FCA7684158E708A00BA71FE /* dec_png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dec_png.c; sourceTree = "<group>"; };
+		6FCA7685158E708A00BA71FE /* dec_rgb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dec_rgb.c; sourceTree = "<group>"; };
+		6FCA7686158E708A00BA71FE /* dec_s561.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dec_s561.c; sourceTree = "<group>"; };
+		6FCA7687158E708A00BA71FE /* dec_yuv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dec_yuv.c; sourceTree = "<group>"; };
+		6FCA7688158E708A00BA71FE /* dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec.h; sourceTree = "<group>"; };
+		6FCA7689158E708A00BA71FE /* effects.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = effects.c; sourceTree = "<group>"; };
+		6FCA768A158E708A00BA71FE /* effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = effects.h; sourceTree = "<group>"; };
+		6FCA768B158E708A00BA71FE /* example.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.conf; sourceTree = "<group>"; };
+		6FCA768C158E708A00BA71FE /* fswebcam.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = fswebcam.1; sourceTree = "<group>"; };
+		6FCA768D158E708A00BA71FE /* fswebcam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fswebcam.c; sourceTree = "<group>"; };
+		6FCA768E158E708A00BA71FE /* fswebcam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fswebcam.h; sourceTree = "<group>"; };
+		6FCA768F158E708A00BA71FE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6FCA7690158E708A00BA71FE /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		6FCA7691158E708A00BA71FE /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		6FCA7692158E708A00BA71FE /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		6FCA7693158E708A00BA71FE /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parse.c; sourceTree = "<group>"; };
+		6FCA7694158E708A00BA71FE /* parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
+		6FCA7695158E708A00BA71FE /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		6FCA7696158E708A00BA71FE /* src_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = src_file.c; sourceTree = "<group>"; };
+		6FCA7697158E708A00BA71FE /* src_raw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = src_raw.c; sourceTree = "<group>"; };
+		6FCA7698158E708A00BA71FE /* src_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = src_test.c; sourceTree = "<group>"; };
+		6FCA7699158E708A00BA71FE /* src_v4l1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = src_v4l1.c; sourceTree = "<group>"; };
+		6FCA769A158E708A00BA71FE /* src_v4l2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = src_v4l2.c; sourceTree = "<group>"; };
+		6FCA769B158E708A00BA71FE /* src.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = src.c; sourceTree = "<group>"; };
+		6FCA769C158E708A00BA71FE /* src.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = src.h; sourceTree = "<group>"; };
+		6FCA769D158E708A00BA71FE /* videodev_mjpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videodev_mjpeg.h; sourceTree = "<group>"; };
+		6FCA769E158E708A00BA71FE /* videodev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videodev.h; sourceTree = "<group>"; };
+		6FCA769F158E708A00BA71FE /* videodev2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videodev2.h; sourceTree = "<group>"; };
 		6FF53DE2158D541300694F9A /* Cansat 2013 function set */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cansat 2013 function set"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF53DE6158D541300694F9A /* main_i2c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main_i2c.cpp; sourceTree = "<group>"; };
 		6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Cansat_2013_function_set.1; sourceTree = "<group>"; };
@@ -127,41 +127,41 @@
 		6F13E499158E683B00FD7DC9 /* Camera Access */ = {
 			isa = PBXGroup;
 			children = (
-				6F13E49A158E6CA200FD7DC9 /* CHANGELOG */,
-				6F13E49B158E6CA200FD7DC9 /* config.h.in */,
-				6F13E49C158E6CA200FD7DC9 /* configure */,
-				6F13E49D158E6CA200FD7DC9 /* configure.ac */,
-				6F13E49E158E6CA200FD7DC9 /* dec_bayer.c */,
-				6F13E49F158E6CA200FD7DC9 /* dec_grey.c */,
-				6F13E4A0158E6CA200FD7DC9 /* dec_jpeg.c */,
-				6F13E4A1158E6CA200FD7DC9 /* dec_png.c */,
-				6F13E4A2158E6CA200FD7DC9 /* dec_rgb.c */,
-				6F13E4A3158E6CA200FD7DC9 /* dec_s561.c */,
-				6F13E4A4158E6CA200FD7DC9 /* dec_yuv.c */,
-				6F13E4A5158E6CA200FD7DC9 /* dec.h */,
-				6F13E4A6158E6CA200FD7DC9 /* effects.c */,
-				6F13E4A7158E6CA200FD7DC9 /* effects.h */,
-				6F13E4A8158E6CA200FD7DC9 /* example.conf */,
-				6F13E4A9158E6CA200FD7DC9 /* fswebcam.1 */,
-				6F13E4AA158E6CA200FD7DC9 /* fswebcam.c */,
-				6F13E4AB158E6CA200FD7DC9 /* fswebcam.h */,
-				6F13E4AC158E6CA200FD7DC9 /* LICENSE */,
-				6F13E4AD158E6CA200FD7DC9 /* log.c */,
-				6F13E4AE158E6CA200FD7DC9 /* log.h */,
-				6F13E4AF158E6CA200FD7DC9 /* Makefile.in */,
-				6F13E4B0158E6CA200FD7DC9 /* parse.c */,
-				6F13E4B1158E6CA200FD7DC9 /* parse.h */,
-				6F13E4B2158E6CA200FD7DC9 /* README */,
-				6F13E4B3158E6CA200FD7DC9 /* src_file.c */,
-				6F13E4B4158E6CA200FD7DC9 /* src_raw.c */,
-				6F13E4B5158E6CA200FD7DC9 /* src_test.c */,
-				6F13E4B6158E6CA200FD7DC9 /* src_v4l1.c */,
-				6F13E4B7158E6CA200FD7DC9 /* src_v4l2.c */,
-				6F13E4B8158E6CA200FD7DC9 /* src.c */,
-				6F13E4B9158E6CA200FD7DC9 /* src.h */,
-				6F13E4BA158E6CA200FD7DC9 /* videodev_mjpeg.h */,
-				6F13E4BB158E6CA200FD7DC9 /* videodev.h */,
-				6F13E4BC158E6CA200FD7DC9 /* videodev2.h */,
+				6FCA767D158E708A00BA71FE /* CHANGELOG */,
+				6FCA767E158E708A00BA71FE /* config.h.in */,
+				6FCA767F158E708A00BA71FE /* configure */,
+				6FCA7680158E708A00BA71FE /* configure.ac */,
+				6FCA7681158E708A00BA71FE /* dec_bayer.c */,
+				6FCA7682158E708A00BA71FE /* dec_grey.c */,
+				6FCA7683158E708A00BA71FE /* dec_jpeg.c */,
+				6FCA7684158E708A00BA71FE /* dec_png.c */,
+				6FCA7685158E708A00BA71FE /* dec_rgb.c */,
+				6FCA7686158E708A00BA71FE /* dec_s561.c */,
+				6FCA7687158E708A00BA71FE /* dec_yuv.c */,
+				6FCA7688158E708A00BA71FE /* dec.h */,
+				6FCA7689158E708A00BA71FE /* effects.c */,
+				6FCA768A158E708A00BA71FE /* effects.h */,
+				6FCA768B158E708A00BA71FE /* example.conf */,
+				6FCA768C158E708A00BA71FE /* fswebcam.1 */,
+				6FCA768D158E708A00BA71FE /* fswebcam.c */,
+				6FCA768E158E708A00BA71FE /* fswebcam.h */,
+				6FCA768F158E708A00BA71FE /* LICENSE */,
+				6FCA7690158E708A00BA71FE /* log.c */,
+				6FCA7691158E708A00BA71FE /* log.h */,
+				6FCA7692158E708A00BA71FE /* Makefile.in */,
+				6FCA7693158E708A00BA71FE /* parse.c */,
+				6FCA7694158E708A00BA71FE /* parse.h */,
+				6FCA7695158E708A00BA71FE /* README */,
+				6FCA7696158E708A00BA71FE /* src_file.c */,
+				6FCA7697158E708A00BA71FE /* src_raw.c */,
+				6FCA7698158E708A00BA71FE /* src_test.c */,
+				6FCA7699158E708A00BA71FE /* src_v4l1.c */,
+				6FCA769A158E708A00BA71FE /* src_v4l2.c */,
+				6FCA769B158E708A00BA71FE /* src.c */,
+				6FCA769C158E708A00BA71FE /* src.h */,
+				6FCA769D158E708A00BA71FE /* videodev_mjpeg.h */,
+				6FCA769E158E708A00BA71FE /* videodev.h */,
+				6FCA769F158E708A00BA71FE /* videodev2.h */,
 			);
 			name = "Camera Access";
 			sourceTree = "<group>";
@@ -287,23 +287,23 @@
 				6F13E48F158E634100FD7DC9 /* Kernel_Errors.cpp in Sources */,
 				6F13E493158E653F00FD7DC9 /* main_xbee.cpp in Sources */,
 				6F13E495158E655400FD7DC9 /* main_sd.cpp in Sources */,
-				6F13E4BD158E6CA200FD7DC9 /* dec_bayer.c in Sources */,
-				6F13E4BE158E6CA200FD7DC9 /* dec_grey.c in Sources */,
-				6F13E4BF158E6CA200FD7DC9 /* dec_jpeg.c in Sources */,
-				6F13E4C0158E6CA200FD7DC9 /* dec_png.c in Sources */,
-				6F13E4C1158E6CA200FD7DC9 /* dec_rgb.c in Sources */,
-				6F13E4C2158E6CA200FD7DC9 /* dec_s561.c in Sources */,
-				6F13E4C3158E6CA200FD7DC9 /* dec_yuv.c in Sources */,
-				6F13E4C4158E6CA200FD7DC9 /* effects.c in Sources */,
-				6F13E4C5158E6CA200FD7DC9 /* fswebcam.c in Sources */,
-				6F13E4C6158E6CA200FD7DC9 /* log.c in Sources */,
-				6F13E4C7158E6CA200FD7DC9 /* parse.c in Sources */,
-				6F13E4C8158E6CA200FD7DC9 /* src_file.c in Sources */,
-				6F13E4C9158E6CA200FD7DC9 /* src_raw.c in Sources */,
-				6F13E4CA158E6CA200FD7DC9 /* src_test.c in Sources */,
-				6F13E4CB158E6CA200FD7DC9 /* src_v4l1.c in Sources */,
-				6F13E4CC158E6CA200FD7DC9 /* src_v4l2.c in Sources */,
-				6F13E4CD158E6CA200FD7DC9 /* src.c in Sources */,
+				6FCA76A0158E708A00BA71FE /* dec_bayer.c in Sources */,
+				6FCA76A1158E708A00BA71FE /* dec_grey.c in Sources */,
+				6FCA76A2158E708A00BA71FE /* dec_jpeg.c in Sources */,
+				6FCA76A3158E708A00BA71FE /* dec_png.c in Sources */,
+				6FCA76A4158E708A00BA71FE /* dec_rgb.c in Sources */,
+				6FCA76A5158E708A00BA71FE /* dec_s561.c in Sources */,
+				6FCA76A6158E708A00BA71FE /* dec_yuv.c in Sources */,
+				6FCA76A7158E708A00BA71FE /* effects.c in Sources */,
+				6FCA76A8158E708A00BA71FE /* fswebcam.c in Sources */,
+				6FCA76A9158E708A00BA71FE /* log.c in Sources */,
+				6FCA76AA158E708A00BA71FE /* parse.c in Sources */,
+				6FCA76AB158E708A00BA71FE /* src_file.c in Sources */,
+				6FCA76AC158E708A00BA71FE /* src_raw.c in Sources */,
+				6FCA76AD158E708A00BA71FE /* src_test.c in Sources */,
+				6FCA76AE158E708A00BA71FE /* src_v4l1.c in Sources */,
+				6FCA76AF158E708A00BA71FE /* src_v4l2.c in Sources */,
+				6FCA76B0158E708A00BA71FE /* src.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
