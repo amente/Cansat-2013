@@ -7,8 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F13E48F158E634100FD7DC9 /* Kernel_Errors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E48E158E634100FD7DC9 /* Kernel_Errors.cpp */; };
+		6F13E493158E653F00FD7DC9 /* main_xbee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E492158E653F00FD7DC9 /* main_xbee.cpp */; };
+		6F13E495158E655400FD7DC9 /* main_sd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E494158E655400FD7DC9 /* main_sd.cpp */; };
+		6F13E4BD158E6CA200FD7DC9 /* dec_bayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E49E158E6CA200FD7DC9 /* dec_bayer.c */; };
+		6F13E4BE158E6CA200FD7DC9 /* dec_grey.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E49F158E6CA200FD7DC9 /* dec_grey.c */; };
+		6F13E4BF158E6CA200FD7DC9 /* dec_jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A0158E6CA200FD7DC9 /* dec_jpeg.c */; };
+		6F13E4C0158E6CA200FD7DC9 /* dec_png.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A1158E6CA200FD7DC9 /* dec_png.c */; };
+		6F13E4C1158E6CA200FD7DC9 /* dec_rgb.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A2158E6CA200FD7DC9 /* dec_rgb.c */; };
+		6F13E4C2158E6CA200FD7DC9 /* dec_s561.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A3158E6CA200FD7DC9 /* dec_s561.c */; };
+		6F13E4C3158E6CA200FD7DC9 /* dec_yuv.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A4158E6CA200FD7DC9 /* dec_yuv.c */; };
+		6F13E4C4158E6CA200FD7DC9 /* effects.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4A6158E6CA200FD7DC9 /* effects.c */; };
+		6F13E4C5158E6CA200FD7DC9 /* fswebcam.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4AA158E6CA200FD7DC9 /* fswebcam.c */; };
+		6F13E4C6158E6CA200FD7DC9 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4AD158E6CA200FD7DC9 /* log.c */; };
+		6F13E4C7158E6CA200FD7DC9 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B0158E6CA200FD7DC9 /* parse.c */; };
+		6F13E4C8158E6CA200FD7DC9 /* src_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B3158E6CA200FD7DC9 /* src_file.c */; };
+		6F13E4C9158E6CA200FD7DC9 /* src_raw.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B4158E6CA200FD7DC9 /* src_raw.c */; };
+		6F13E4CA158E6CA200FD7DC9 /* src_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B5158E6CA200FD7DC9 /* src_test.c */; };
+		6F13E4CB158E6CA200FD7DC9 /* src_v4l1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B6158E6CA200FD7DC9 /* src_v4l1.c */; };
+		6F13E4CC158E6CA200FD7DC9 /* src_v4l2.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B7158E6CA200FD7DC9 /* src_v4l2.c */; };
+		6F13E4CD158E6CA200FD7DC9 /* src.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F13E4B8158E6CA200FD7DC9 /* src.c */; };
 		6FA4F9FB158D5D1100AE997F /* I2C Generic Access Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4F9FA158D5D1100AE997F /* I2C Generic Access Functions.cpp */; };
-		6FF53DE7158D541300694F9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF53DE6158D541300694F9A /* main.cpp */; };
+		6FF53DE7158D541300694F9A /* main_i2c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF53DE6158D541300694F9A /* main_i2c.cpp */; };
 		6FF53DE9158D541300694F9A /* Cansat_2013_function_set.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +46,48 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F13E48E158E634100FD7DC9 /* Kernel_Errors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kernel_Errors.cpp; sourceTree = "<group>"; };
+		6F13E491158E635700FD7DC9 /* Kernel_Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kernel_Errors.h; sourceTree = "<group>"; };
+		6F13E492158E653F00FD7DC9 /* main_xbee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_xbee.cpp; sourceTree = "<group>"; };
+		6F13E494158E655400FD7DC9 /* main_sd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_sd.cpp; sourceTree = "<group>"; };
+		6F13E49A158E6CA200FD7DC9 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGELOG; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/CHANGELOG"; sourceTree = "<group>"; };
+		6F13E49B158E6CA200FD7DC9 /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config.h.in; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/config.h.in"; sourceTree = "<group>"; };
+		6F13E49C158E6CA200FD7DC9 /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = configure; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/configure"; sourceTree = "<group>"; };
+		6F13E49D158E6CA200FD7DC9 /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = configure.ac; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/configure.ac"; sourceTree = "<group>"; };
+		6F13E49E158E6CA200FD7DC9 /* dec_bayer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_bayer.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_bayer.c"; sourceTree = "<group>"; };
+		6F13E49F158E6CA200FD7DC9 /* dec_grey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_grey.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_grey.c"; sourceTree = "<group>"; };
+		6F13E4A0158E6CA200FD7DC9 /* dec_jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_jpeg.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_jpeg.c"; sourceTree = "<group>"; };
+		6F13E4A1158E6CA200FD7DC9 /* dec_png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_png.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_png.c"; sourceTree = "<group>"; };
+		6F13E4A2158E6CA200FD7DC9 /* dec_rgb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_rgb.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_rgb.c"; sourceTree = "<group>"; };
+		6F13E4A3158E6CA200FD7DC9 /* dec_s561.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_s561.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_s561.c"; sourceTree = "<group>"; };
+		6F13E4A4158E6CA200FD7DC9 /* dec_yuv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_yuv.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec_yuv.c"; sourceTree = "<group>"; };
+		6F13E4A5158E6CA200FD7DC9 /* dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dec.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/dec.h"; sourceTree = "<group>"; };
+		6F13E4A6158E6CA200FD7DC9 /* effects.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = effects.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/effects.c"; sourceTree = "<group>"; };
+		6F13E4A7158E6CA200FD7DC9 /* effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = effects.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/effects.h"; sourceTree = "<group>"; };
+		6F13E4A8158E6CA200FD7DC9 /* example.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = example.conf; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/example.conf"; sourceTree = "<group>"; };
+		6F13E4A9158E6CA200FD7DC9 /* fswebcam.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = fswebcam.1; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/fswebcam.1"; sourceTree = "<group>"; };
+		6F13E4AA158E6CA200FD7DC9 /* fswebcam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fswebcam.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/fswebcam.c"; sourceTree = "<group>"; };
+		6F13E4AB158E6CA200FD7DC9 /* fswebcam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fswebcam.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/fswebcam.h"; sourceTree = "<group>"; };
+		6F13E4AC158E6CA200FD7DC9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/LICENSE"; sourceTree = "<group>"; };
+		6F13E4AD158E6CA200FD7DC9 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = log.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/log.c"; sourceTree = "<group>"; };
+		6F13E4AE158E6CA200FD7DC9 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = log.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/log.h"; sourceTree = "<group>"; };
+		6F13E4AF158E6CA200FD7DC9 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.in; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/Makefile.in"; sourceTree = "<group>"; };
+		6F13E4B0158E6CA200FD7DC9 /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/parse.c"; sourceTree = "<group>"; };
+		6F13E4B1158E6CA200FD7DC9 /* parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parse.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/parse.h"; sourceTree = "<group>"; };
+		6F13E4B2158E6CA200FD7DC9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/README"; sourceTree = "<group>"; };
+		6F13E4B3158E6CA200FD7DC9 /* src_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_file.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_file.c"; sourceTree = "<group>"; };
+		6F13E4B4158E6CA200FD7DC9 /* src_raw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_raw.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_raw.c"; sourceTree = "<group>"; };
+		6F13E4B5158E6CA200FD7DC9 /* src_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_test.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_test.c"; sourceTree = "<group>"; };
+		6F13E4B6158E6CA200FD7DC9 /* src_v4l1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_v4l1.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_v4l1.c"; sourceTree = "<group>"; };
+		6F13E4B7158E6CA200FD7DC9 /* src_v4l2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src_v4l2.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src_v4l2.c"; sourceTree = "<group>"; };
+		6F13E4B8158E6CA200FD7DC9 /* src.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = src.c; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src.c"; sourceTree = "<group>"; };
+		6F13E4B9158E6CA200FD7DC9 /* src.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = src.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/src.h"; sourceTree = "<group>"; };
+		6F13E4BA158E6CA200FD7DC9 /* videodev_mjpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videodev_mjpeg.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/videodev_mjpeg.h"; sourceTree = "<group>"; };
+		6F13E4BB158E6CA200FD7DC9 /* videodev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videodev.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/videodev.h"; sourceTree = "<group>"; };
+		6F13E4BC158E6CA200FD7DC9 /* videodev2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videodev2.h; path = "../../../../../../../../Users/francispapineau/Downloads/fsphil-fswebcam-c79427a/videodev2.h"; sourceTree = "<group>"; };
 		6FA4F9FA158D5D1100AE997F /* I2C Generic Access Functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "I2C Generic Access Functions.cpp"; sourceTree = "<group>"; };
 		6FF53DE2158D541300694F9A /* Cansat 2013 function set */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cansat 2013 function set"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FF53DE6158D541300694F9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6FF53DE6158D541300694F9A /* main_i2c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main_i2c.cpp; sourceTree = "<group>"; };
 		6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Cansat_2013_function_set.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,38 +102,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F13E496158E65F300FD7DC9 /* Xbee Access */ = {
+			isa = PBXGroup;
+			children = (
+				6F13E492158E653F00FD7DC9 /* main_xbee.cpp */,
+			);
+			name = "Xbee Access";
+			sourceTree = "<group>";
+		};
+		6F13E497158E662A00FD7DC9 /* GPIO Access */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "GPIO Access";
+			sourceTree = "<group>";
+		};
+		6F13E498158E662D00FD7DC9 /* GPS Access */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "GPS Access";
+			sourceTree = "<group>";
+		};
+		6F13E499158E683B00FD7DC9 /* Camera Access */ = {
+			isa = PBXGroup;
+			children = (
+				6F13E49A158E6CA200FD7DC9 /* CHANGELOG */,
+				6F13E49B158E6CA200FD7DC9 /* config.h.in */,
+				6F13E49C158E6CA200FD7DC9 /* configure */,
+				6F13E49D158E6CA200FD7DC9 /* configure.ac */,
+				6F13E49E158E6CA200FD7DC9 /* dec_bayer.c */,
+				6F13E49F158E6CA200FD7DC9 /* dec_grey.c */,
+				6F13E4A0158E6CA200FD7DC9 /* dec_jpeg.c */,
+				6F13E4A1158E6CA200FD7DC9 /* dec_png.c */,
+				6F13E4A2158E6CA200FD7DC9 /* dec_rgb.c */,
+				6F13E4A3158E6CA200FD7DC9 /* dec_s561.c */,
+				6F13E4A4158E6CA200FD7DC9 /* dec_yuv.c */,
+				6F13E4A5158E6CA200FD7DC9 /* dec.h */,
+				6F13E4A6158E6CA200FD7DC9 /* effects.c */,
+				6F13E4A7158E6CA200FD7DC9 /* effects.h */,
+				6F13E4A8158E6CA200FD7DC9 /* example.conf */,
+				6F13E4A9158E6CA200FD7DC9 /* fswebcam.1 */,
+				6F13E4AA158E6CA200FD7DC9 /* fswebcam.c */,
+				6F13E4AB158E6CA200FD7DC9 /* fswebcam.h */,
+				6F13E4AC158E6CA200FD7DC9 /* LICENSE */,
+				6F13E4AD158E6CA200FD7DC9 /* log.c */,
+				6F13E4AE158E6CA200FD7DC9 /* log.h */,
+				6F13E4AF158E6CA200FD7DC9 /* Makefile.in */,
+				6F13E4B0158E6CA200FD7DC9 /* parse.c */,
+				6F13E4B1158E6CA200FD7DC9 /* parse.h */,
+				6F13E4B2158E6CA200FD7DC9 /* README */,
+				6F13E4B3158E6CA200FD7DC9 /* src_file.c */,
+				6F13E4B4158E6CA200FD7DC9 /* src_raw.c */,
+				6F13E4B5158E6CA200FD7DC9 /* src_test.c */,
+				6F13E4B6158E6CA200FD7DC9 /* src_v4l1.c */,
+				6F13E4B7158E6CA200FD7DC9 /* src_v4l2.c */,
+				6F13E4B8158E6CA200FD7DC9 /* src.c */,
+				6F13E4B9158E6CA200FD7DC9 /* src.h */,
+				6F13E4BA158E6CA200FD7DC9 /* videodev_mjpeg.h */,
+				6F13E4BB158E6CA200FD7DC9 /* videodev.h */,
+				6F13E4BC158E6CA200FD7DC9 /* videodev2.h */,
+			);
+			name = "Camera Access";
+			sourceTree = "<group>";
+		};
 		6FA4F9F2158D57AF00AE997F /* I2C Access */ = {
 			isa = PBXGroup;
 			children = (
+				6FF53DE6158D541300694F9A /* main_i2c.cpp */,
 				6FA4F9FA158D5D1100AE997F /* I2C Generic Access Functions.cpp */,
 			);
 			name = "I2C Access";
 			sourceTree = "<group>";
 		};
-		6FA4F9F5158D57CC00AE997F /* Functionnal Tests */ = {
+		6FA4F9F6158D57EB00AE997F /* SD Access */ = {
 			isa = PBXGroup;
 			children = (
+				6F13E494158E655400FD7DC9 /* main_sd.cpp */,
 			);
-			name = "Functionnal Tests";
-			sourceTree = "<group>";
-		};
-		6FA4F9F6158D57EB00AE997F /* SPI Access */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "SPI Access";
-			sourceTree = "<group>";
-		};
-		6FA4F9F7158D57F700AE997F /* Boot Init */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Boot Init";
+			name = "SD Access";
 			sourceTree = "<group>";
 		};
 		6FA4F9F8158D584B00AE997F /* Main System Calls */ = {
 			isa = PBXGroup;
 			children = (
+				6F13E491158E635700FD7DC9 /* Kernel_Errors.h */,
+				6F13E48E158E634100FD7DC9 /* Kernel_Errors.cpp */,
 			);
 			name = "Main System Calls";
 			sourceTree = "<group>";
@@ -82,8 +195,11 @@
 		6FA4F9F9158D586300AE997F /* Delegate System Calls */ = {
 			isa = PBXGroup;
 			children = (
-				6FA4F9F6158D57EB00AE997F /* SPI Access */,
-				6FA4F9F5158D57CC00AE997F /* Functionnal Tests */,
+				6F13E499158E683B00FD7DC9 /* Camera Access */,
+				6F13E498158E662D00FD7DC9 /* GPS Access */,
+				6F13E497158E662A00FD7DC9 /* GPIO Access */,
+				6F13E496158E65F300FD7DC9 /* Xbee Access */,
+				6FA4F9F6158D57EB00AE997F /* SD Access */,
 				6FA4F9F2158D57AF00AE997F /* I2C Access */,
 			);
 			name = "Delegate System Calls";
@@ -110,8 +226,6 @@
 			children = (
 				6FA4F9F9158D586300AE997F /* Delegate System Calls */,
 				6FA4F9F8158D584B00AE997F /* Main System Calls */,
-				6FA4F9F7158D57F700AE997F /* Boot Init */,
-				6FF53DE6158D541300694F9A /* main.cpp */,
 				6FF53DE8158D541300694F9A /* Cansat_2013_function_set.1 */,
 			);
 			path = "Cansat 2013 function set";
@@ -168,8 +282,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FF53DE7158D541300694F9A /* main.cpp in Sources */,
+				6FF53DE7158D541300694F9A /* main_i2c.cpp in Sources */,
 				6FA4F9FB158D5D1100AE997F /* I2C Generic Access Functions.cpp in Sources */,
+				6F13E48F158E634100FD7DC9 /* Kernel_Errors.cpp in Sources */,
+				6F13E493158E653F00FD7DC9 /* main_xbee.cpp in Sources */,
+				6F13E495158E655400FD7DC9 /* main_sd.cpp in Sources */,
+				6F13E4BD158E6CA200FD7DC9 /* dec_bayer.c in Sources */,
+				6F13E4BE158E6CA200FD7DC9 /* dec_grey.c in Sources */,
+				6F13E4BF158E6CA200FD7DC9 /* dec_jpeg.c in Sources */,
+				6F13E4C0158E6CA200FD7DC9 /* dec_png.c in Sources */,
+				6F13E4C1158E6CA200FD7DC9 /* dec_rgb.c in Sources */,
+				6F13E4C2158E6CA200FD7DC9 /* dec_s561.c in Sources */,
+				6F13E4C3158E6CA200FD7DC9 /* dec_yuv.c in Sources */,
+				6F13E4C4158E6CA200FD7DC9 /* effects.c in Sources */,
+				6F13E4C5158E6CA200FD7DC9 /* fswebcam.c in Sources */,
+				6F13E4C6158E6CA200FD7DC9 /* log.c in Sources */,
+				6F13E4C7158E6CA200FD7DC9 /* parse.c in Sources */,
+				6F13E4C8158E6CA200FD7DC9 /* src_file.c in Sources */,
+				6F13E4C9158E6CA200FD7DC9 /* src_raw.c in Sources */,
+				6F13E4CA158E6CA200FD7DC9 /* src_test.c in Sources */,
+				6F13E4CB158E6CA200FD7DC9 /* src_v4l1.c in Sources */,
+				6F13E4CC158E6CA200FD7DC9 /* src_v4l2.c in Sources */,
+				6F13E4CD158E6CA200FD7DC9 /* src.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
